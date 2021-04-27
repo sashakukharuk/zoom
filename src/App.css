@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+#zmmtg-root {
+  display: none;
+}
+
+.video-option-menu {
+  display: none;
+}
+
+.audio-option-menu__pop-menu {
+  display: none;
+}
+
+.audio-option-menu {
+  display: none;
+}
+
+.more-button {
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
