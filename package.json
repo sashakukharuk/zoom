@@ -1,0 +1,45 @@
+{
+  "name": "app-zoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "server": "nodemon src/index.ts",
+    "my-app-install": "npm install --prefix my-app",
+    "my-app": "npm run start --prefix my-app",
+    "dev": "concurrently \"npm run server\" \"npm run my-app\"",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.10",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.14.35",
+    "@types/passport": "^1.0.6",
+    "@types/passport-jwt": "^3.0.5",
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}

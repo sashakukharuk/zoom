@@ -1,0 +1,10 @@
+.idea
+build
+node_modules
+.env
+my-app/build
+my-app/node_modules
+my-app/.idea
+my-app/.env
+
+
